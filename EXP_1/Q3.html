@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXP1</title>
+  </head>
+  <body>
+    <font size="6">
+      <center>Email Account Form</center>
+    </font>
+    <font size="5">
+      Enter Username <input type="text" name="txtUser" maxlength="30" />
+      <br /><br />
+      Enter Password <input type="password" name="txtPass" /> <br /><br />
+      Address <textarea name="add" rows="5" cols="30"></textarea> <br /><br />
+      Fields of Interest
+      <input type="checkbox" name="chk1" />Entertainment
+      <input type="checkbox" name="chk2" />Sports
+      <input type="checkbox" name="chk3" />News<br /><br />
+      Gender
+      <input type="radio" name="optGender" />Male
+      <input type="radio" name="optGender" />Female<br /><br />
+      Select Languages
+      <select name="lang" multiple>
+        <option>Marathi</option>
+        <option>Hindi</option>
+        <option>English</option>
+      </select>
+      <br /><br />
+      Select Country
+      <select name="cntry" multiple>
+        <option>India</option>
+        <option>USA</option>
+        <option>Japan</option>
+        <option>UK</option>
+      </select>
+      <br /><br />
+      Upload Photo <input type="file" name="fileupload" accept="image/*" />
+      <br /><br />
+      <input type="button" name="vld" value="Validate" />
+      <input type="reset" name="rst" value="Reset" />
+      <input type="submit" name="sub" value="Submit" />
+      <input type="hidden" name="pagenm" value="11" />
+    </font>
+  </body>
+</html>
